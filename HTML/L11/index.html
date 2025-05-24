@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Elemento šalinimas</title>
+	<style>
+		#myElement {
+			padding: 10px;
+			background-color: lightblue;
+			border: 1px solid black;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div id="myElement">
+		Tai yra elementas, kurį pašalinsime.
+	</div>
+	<button onclick="pasalintiElementa()">Pašalinti elementą</button>
+
+	<script>
+		function pasalintiElementa() {
+			const element = document.getElementById('myElement');
+			const object = document.querySelector('button');
+
+			if (element) {
+				element.remove();
+				alert('Elementas pašalintas!');
+			} else {
+				alert('Elemento nebėra!');
+				object.remove();
+			}
+		}
+	</script>
+
+</body>
+
+</html>

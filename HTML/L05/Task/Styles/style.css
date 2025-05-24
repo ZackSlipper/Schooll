@@ -1,0 +1,145 @@
+body
+{
+	background-image: url('../Img/bg.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	width: 80%;
+	margin: auto;
+}
+
+header
+{
+	background-image: url('../Img/head.jpg');
+	background-size: 28%;
+	background-repeat: repeat;
+	background-attachment: local;
+	height: 100px;
+}
+
+nav
+{
+	background-color: rgba(128, 128, 255, 0.75);
+	margin: 0.5em;
+	border: 4px solid black;
+}
+
+nav ul
+{
+	list-style: none;
+	padding: 0.5em;
+	margin: 0;
+}
+
+nav ul li
+{
+	display: inline-block;
+	margin: 0.5em;
+}
+
+nav ul li a
+{
+	text-decoration: none;
+	color: white;
+	padding: 0.5em;
+}
+
+nav ul li a:hover
+{
+	background-color: darkslateblue;
+}
+
+nav ul li a:active
+{
+	background-color: darkblue;
+	outline: 2px solid black;
+}
+
+section
+{
+	background-color: rgba(200, 200, 255, 0.95);
+	padding: 0.5em;
+	margin: 0.5em;
+	font-size: large;
+	border: 4px solid black;
+}
+
+section a
+{
+	color: rgba(50, 50, 255);
+}
+
+section a:hover
+{
+	color: rgba(0, 0, 255);
+}
+
+section a:active
+{
+	color: rgba(0, 255, 255);
+}
+
+img
+{
+	float: left;
+	width: 200px;
+	margin: 0.5em 2em 0.5em 1em;
+}
+
+section:nth-child(even) img
+{
+	float: right;
+}
+
+section:nth-child(even) h2 i:nth-child(1)
+{
+	display: none;
+}
+
+section:nth-child(odd) h2 i:nth-child(2)
+{
+	display: none;
+}
+
+h2::after
+{
+	content: "";
+}
+
+.clear-float
+{
+	clear: both;
+}
+
+footer ul
+{
+	font-size: small;
+	list-style: none;
+	padding: 0.5em;
+	margin-bottom: 2.5em;
+}
+
+footer ul li
+{
+	float: right;
+	margin: 0.5em;
+}
+
+footer div, footer p
+{
+	text-align: center;
+}
+
+footer div i
+{
+	font-size: 1.5em;
+	display: inline;
+	margin: 0.1em;
+	padding: 0.1em;
+}
+
+footer div i:hover
+{
+	outline: 2px solid black;
+}

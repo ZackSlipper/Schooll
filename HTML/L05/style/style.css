@@ -1,0 +1,85 @@
+body {
+	background-color: darkslateblue;
+	border: 1em solid darkred;
+	background-image: url('../img/fonas.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+nav {
+	font-family: 'Courier New', Courier, monospace;
+	background-color: darkslategrey;
+	color: white;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0.5em;
+	margin: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0.5em;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 0.5em;
+}
+
+nav ul li a:hover {
+	background-color: darkcyan;
+}
+
+nav ul li a:active {
+	background-color: darkorange;
+	color: darkred;
+	border-bottom: 5px solid darkred;
+}
+
+header h1 {
+	font-family: 'Courier New', Courier, monospace;
+	color: black;
+	text-align: center;
+	animation: scroll 10s infinite linear;
+}
+
+header {
+	overflow-x: hidden;
+	background-image: url('../img/virsus.jpg');
+	background-size: 100%;
+	background-repeat: repeat-x;
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateX(-100%);
+	}
+
+	100% {
+		transform: translateX(100%);
+	}
+}
+
+article {
+	font-family: 'Courier New', Courier, monospace;
+	color: white;
+	text-align: center;
+	width: 32%;
+	background-color: rgb(0, 0, 139, 0.5);
+	margin: 0.25em;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+i {
+	font-size: 2em;
+}

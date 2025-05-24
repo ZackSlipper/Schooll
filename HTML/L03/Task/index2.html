@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form2</title>
+	<link rel="stylesheet" href="styles/style2.css">
+</head>
+<body>
+	<form action="/submit" method="post">
+
+		<h2>Duomenų informacija</h2>
+
+		<div>
+			<label class="required-field" for="email">El pašto adresas:</label>
+			<input type="email" name="email" id="email" required>
+		</div>
+
+		<div>
+			<label class="required-field" for="passwd">Slaptažodis:</label>
+			<input type="password" name="passwd" id="passwd" required>
+		</div>
+
+		<div>
+			<label class="required-field" for="passwd_repeat">Patvirtinti slaptažodį:</label>
+			<input type="password" name="passwd_repeat" id="passwd_repeat" required>
+		</div>
+
+		<div>
+			<span class="spacer"></span>
+			<input type="checkbox" name="agree" id="agree" value="test" required>
+			<label for="agree">Sutinku su <a href="https://www.kitm.lt/administracine-informacija">taisyklėmis</a></label>
+		</div>
+
+		<h2>Pasirinkite sąskaitos informaciją</h2>
+
+		<div>
+			<label class="required-field" for="gender">Lytis:</label>
+			<select id="gender" name="gender" required>
+				<option selected>Moteris</option>
+				<option>Vyras</option>
+				<option>Nesakysiu</option>
+			</select>
+		</div>
+
+		<div>
+			<label class="required-field" for="name">Vardas:</label>
+			<input type="text" name="name" id="name" required>
+		</div>
+		
+		<div>
+			<label class="required-field" for="surname">Pavardė:</label>
+			<input type="text" name="surname" id="surname" required>
+		</div>
+
+		<div>
+			<nobr>
+				<label class="required-field" for="address">Gatvė, namo(buto) nr.:</label>
+				<input class="small_input" type="text" name="address" id="address_street" required>
+				<input class="extra_small_input" type="text" name="address_building" id="address_building" required>
+			</nobr>
+		</div>
+
+		<div>
+			<label class="required-field" for="postal_code">Pašto kodas:</label>
+			<input class="small_input" type="number" name="postal_code" id="postal_code" required>
+			<a href="https://post.lt/pasto-kodu-ir-adresu-paieska">Pašto kodo paieška</a>
+		</div>
+
+		<div>
+			<label class="required-field" for="city">Miestas:</label>
+			<input class="small_input" type="text" name="city" id="city" required>
+		</div>
+
+		<div>
+			<label class="required-field" for="country">Šalis:</label>
+			<select id="country" name="country" required>
+				<option selected disabled>-</option>
+				<option>Lietuva</option>
+				<option>Latvija</option>
+				<option>Estija</option>
+			</select>
+		</div>
+
+		<div>
+			<label class="required-field" for="phone">Telefonas:</label>
+			<input type="tel" name="phone" id="phone" required>
+		</div>
+
+		<div>
+			<label for="info">Papildoma informacija: <div class="misc">(Pavyzdžiui vartelių/durų kodas)</div></label>
+			<textarea name="info" id="info"></textarea>
+		</div>
+
+		<div>
+			<span class="spacer"></span>
+			<p class="inline misc fill_required required-field">Prašome užpildyti visus pažymėtus laukus</p>
+		</div>
+
+		<div>
+			<span class="spacer"></span>
+			<input type="submit" name="submit" id="submit" value="Registruotis">
+		</div>
+
+	</form>
+</body>
+</html>

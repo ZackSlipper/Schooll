@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DOM Task</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<!-- Task 1 -->
+	<div class="container">
+		<p id="text">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus mollitia tempora voluptate quos. Officia incidunt officiis dolores expedita, exercitationem molestiae perferendis, dignissimos sint saepe est quaerat ea quia? Autem, praesentium perspiciatis? Fugiat cum qui vero et? Assumenda, eum! Reiciendis ad cumque nemo dolore! Neque, ex iure molestias tempore blanditiis numquam!
+		</p>
+		<div class="buttons">
+			<button onclick="textYellow()" type="button">Geltona</button>
+			<button onclick="textGreen()" type="button">Žalia</button>
+			<button onclick="textRed()" type="button">Raudona</button>
+		</div>
+	</div>
+
+	<!-- Task 2 -->
+	<div class="container">
+		<div class="buttons">
+			<button onclick="imageResizeBigger()" type="button">Padidinti</button>
+			<button onclick="imageResizeSmaller()" type="button">Sumažinti</button>
+		</div>
+		<img id="image" src="image.png">
+	</div>
+
+	<!-- Task 3 -->
+	<div class="container">
+		<div class="buttons">
+			<button onclick="imageColored()" type="button">Spalvotas</button>
+			<button onclick="imageGrayscale()" type="button">Nespalvotas</button>
+		</div>
+		<img id="image2" src="image.png">
+	</div>
+
+	<!-- Task 4 -->
+	<div class="container">
+		<h1 id="title"></h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate odio corrupti, similique non quae pariatur sequi est suscipit asperiores rem doloribus, sit accusantium iure facere natus nisi voluptatum, eaque aperiam quis! Voluptas laudantium enim dignissimos ducimus eum officia temporibus beatae nostrum quam, sapiente laboriosam minima! Vel minus nobis commodi molestias?</p>
+		<div class="buttons">
+			<button onclick="changeTitle()" type="button">Įtepri pavadinimą</button>
+			
+			<label for="titleInput">Įveskite pavadinimą</label>
+			<input type="text" id="titleInput" value="Pavadinimas">
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>

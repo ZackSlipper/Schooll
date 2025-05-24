@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Slipper Page</title>
+		<link rel="stylesheet" href="styles/style.css">
+	</head>
+	<body>
+		<marquee><h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1></marquee>
+
+		<h3 class="content-table">Content</h3>
+		<ol class="content-table">
+			<li><a href="#thing">Thing</a></li>
+			<li><a href="#kitm">KITM</a></li>
+			<li><a href="#lists">Lists</a></li>
+			<li><a href="#links">Links</a></li>
+		</ol>
+
+		<p>This is some random text</p>
+
+		<h6>Lorem ipsum dolor sit amet.</h6>
+		<!-- Dont use <b>, <i>, <strike> -->
+		<p><i><b>Some more random text</b></i></p> 
+		<p>Lorem <strong>ipsum</strong> <em>dolor</em> <strike>sit amet consectetur</strike>, adipisicing elit.</p>
+
+		<hr>
+
+		<h2 id="thing">Thing</h2>
+		<p>Some random text<br>
+		Some more random text<br>
+		Even more random text</p>
+
+		<!-- <pre> preserves text formatting -->
+		<pre id="test">
+Some random text
+Some more random text
+Even more random text</pre>
+
+		<hr>
+
+		<h2 id="kitm">KITM</h2>
+
+		<p><abbr title="Kauno Informaciniu technologiju mokykla">KITM</abbr> - Some random text</p>
+
+		<address>Laisves aleja 33, Kaunas</address>
+
+		<blockquote cite="https://www.lipsum.com/">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, incidunt.
+		</blockquote>
+
+		<q cite="https://www.lipsum.com/">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, incidunt.</q>
+
+		<!-- <marquee><nobr>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, exercitationem? Doloremque voluptates necessitatibus commodi hic officiis exercitationem mollitia doloribus, voluptatum id amet eaque autem rem molestiae aliquam dolore. Cumque quis voluptate animi! Labore ratione praesentium necessitatibus repudiandae iusto aliquam sit enim. Quia recusandae eum, laborum harum illo, rerum laboriosam doloremque esse tempora vitae, sit accusamus aspernatur. Quidem totam explicabo cum qui quos blanditiis repudiandae, hic ab dolores eos! Optio quod voluptatum tempore ut veniam quam esse qui voluptate quia similique dolorum rerum pariatur ipsum ipsam exercitationem ratione vero voluptates dolores, iusto odio expedita reiciendis! Repellendus mollitia doloribus ratione ipsa officia.</nobr></marquee> -->
+
+		<dfn title="[Title]">[Text]</dfn>
+
+		<dl>
+			<dt>Thing</dt>
+			<dd>a thing</dd>
+		
+			<dt>Thing 2</dt>
+			<dd>a thing two</dd>
+		</dl>
+
+		<hr>
+
+		<!-- Lists -->
+		<!-- Put list types in the styles file -->
+		<h2 id="lists">Lists</h2>
+		<ol class="list" type="I" start="2" reversed>
+			<li>First</li>
+			<li>Second</li>
+			<li>Third</li>
+			<li>Fourth</li>
+			<li>Fifth</li>
+		</ol>
+
+		<ul class="list" type="square"></ol>
+			<li>First</li>
+			<li>Second</li>
+			<li>Third</li>
+			<li>Fourth</li>
+			<li>Fifth</li>
+		</ul>
+
+		<ol class="list">
+			<li>First
+				<ul>
+					<li>First</li>
+					<li>Second</li>
+					<li>Third</li>
+					<li>Fourth</li>
+					<li>Fifth</li>
+				</ul>
+			</li>
+			<li>Second
+				<ul>
+					<li>First</li>
+					<li>Second</li>
+					<li>Third</li>
+					<li>Fourth</li>
+					<li>Fifth</li>
+				</ul>
+			</li>
+				
+			<li>Third
+				<ul>
+					<li>First</li>
+					<li>Second</li>
+					<li>Third</li>
+					<li>Fourth</li>
+					<li>Fifth</li>
+				</ul>
+			</li>
+			<li>Fourth
+				<ul>
+					<li>First</li>
+					<li>Second</li>
+					<li>Third</li>
+					<li>Fourth</li><hr>
+					<li>Fifth</li>
+				</ul>
+			</li>
+			<li>Fifth
+				<ul>
+					<li>First</li>
+					<li>Second</li>
+					<li>Third</li>
+					<li>Fourth</li>
+					<li>Fifth</li>
+				</ul>
+			</li>
+		</ol>
+
+		<div class="clear-float"></div>
+		<hr>
+
+		<h2 id="links">Links</h2>
+		<p><a href="https://www.lipsum.com/" target="_blank" title="Lorem ipsum site">Lorem ipsum</a> dolor sit amet.</p>
+		<a href="#">Empty link</a>
+		<p>Write me an <a href="mailto:zack@pm.me">e-mail</a></p>
+
+		<img id="pic" src="images/866-536x354.jpg">
+		<img id="pic" src="https://picsum.photos/200/300">
+
+		<table>
+			<caption>[Caption]</caption>
+			<tr>
+				<th>[Header]</th>
+				<th>[Header_2]</th>
+				<th>[Header_3]</th>
+			</tr>
+			<tr>
+				<td>[Data]</td>
+				<td>[Data_2]</td>
+				<td>[Data_3]</td>
+			</tr>
+			<tr>
+				<td>[Data]</td>
+				<td>[Data_2]</td>
+				<td>[Data_3]</td>
+			</tr>
+		</table>
+
+		<hr>
+
+		<table>
+			<caption>[Caption]</caption>
+			<tr>
+				<th>[Header]</th>
+				<th>[Header_2]</th>
+				<th>[Header_3]</th>
+			</tr>
+			<tr>
+				<td rowspan="2">[Data]</td>
+				<td>[Data_2]</td>
+				<td>[Data_3]</td>
+			</tr>
+			<tr>
+				<!-- <td>[Data]</td> -->
+				<td colspan="2">[Data_2]</td>
+				<!-- <td>[Data_3]</td> -->
+			</tr>
+		</table>
+	</body>
+	
+	<!-- This is a comment. Shortcut: Ctrl + / -->
+</html>

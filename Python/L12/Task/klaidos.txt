@@ -1,0 +1,12 @@
+Byloje duom5.txt, eiluteje 4, zenkle 1, reiksme 'AČIŪ' nera sveikas skaicius
+Byloje duom5.txt, eiluteje 5, zenkle 4, reiksme '5.8' nera sveikas skaicius
+Byloje duom3.txt, eiluteje 2, zenkle 4, reiksme '8x' nera sveikas skaicius
+Byloje duom3.txt, eiluteje 3, zenkle 4, reiksme '2x' nera sveikas skaicius
+Byloje duom1.txt, eiluteje 1, zenkle 4, reiksme 'a' nera sveikas skaicius
+Byloje duom1.txt, eiluteje 1, zenkle 6, reiksme '15#' nera sveikas skaicius
+Byloje duom1.txt, eiluteje 5, zenkle 1, reiksme 'Labai' nera sveikas skaicius
+Byloje duom1.txt, eiluteje 5, zenkle 2, reiksme 'sunku' nera sveikas skaicius
+Byloje duom8.txt, eiluteje 3, zenkle 4, reiksme '5x' nera sveikas skaicius
+Byloje duom8.txt, eiluteje 3, zenkle 5, reiksme 'w' nera sveikas skaicius
+Byloje duom8.txt, eiluteje 4, zenkle 1, reiksme 'Ą' nera sveikas skaicius
+Byloje duom8.txt, eiluteje 4, zenkle 2, reiksme 'č' nera sveikas skaicius

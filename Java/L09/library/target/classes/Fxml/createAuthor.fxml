@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="658.0" styleClass="create_client_container" stylesheets="@../Styles/createAuthor.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kitm.Controllers.CreateAuthorController">
+   <children>
+      <Text layoutX="259.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create New Author" x="34.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+      <VBox layoutX="31.0" layoutY="62.0" prefHeight="500.0" prefWidth="600.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="40.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="First Name" />
+            <TextField fx:id="tf_FirstName" />
+            <Text layoutX="21.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name" />
+            <TextField fx:id="tf_LastName" layoutX="21.0" layoutY="54.0" />
+            <Text layoutX="21.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+            <TextField fx:id="tf_Email" layoutX="21.0" layoutY="136.0" />
+            <Text layoutX="21.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="City" />
+            <TextField fx:id="tf_City" layoutX="21.0" layoutY="218.0" />
+            <Button fx:id="btn_CreateAuthor" mnemonicParsing="false" text="Add Author" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

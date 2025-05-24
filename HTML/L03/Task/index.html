@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form 1</title>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<form action="/submit" method="post">
+		<fieldset>
+			<legend>Registracijos forma</legend>
+
+			<div>
+				<label for="name">Vardas:</label>
+				<input type="text" name="name" id="name" placeholder="Įveskite vardą">
+			</div>
+
+			<div>
+				<label for="surname">Pavardė:</label>
+				<input type="text" name="surname" id="surname" placeholder="Įveskite pavardę...">
+			</div>
+			
+			<div>
+				<label for="email">El paštas:</label>
+				<input type="email" name="email" id="email" placeholder="El. paštas...">
+			</div>
+
+			<div>
+				<label for="birth_date">Įveskite gimimo datą:</label>
+				<input type="date" name="birth_date" id="birth_date">
+			</div>
+
+			<div>
+				<label for="gender">Vyras</label>
+				<input type="radio" name="gender" id="gender_male">
+
+				<label for="gender">Moteris</label>
+				<input type="radio" name="gender" id="gender_female">
+
+				<label for="gender">Nesakysiu</label>
+				<input type="radio" name="gender" id="gender_none">
+			</div>
+
+			<fieldset>
+				<legend>Registracijos duomenys (slapta!!!)</legend>
+
+				<div>
+					<label for="username">Jūsų prisijungimo vardas:</label>
+					<input type="text" name="username" id="username" placeholder="Įveskite prisijungimo vardą">
+				</div>
+
+				<div>
+					<label for="passwd">Jūsų slaptažodis:</label>
+					<input type="password" name="passwd" id="passwd" placeholder="Įveskite slaptažodį">
+				</div>
+
+				<div>
+					<label for="personal_no">Įveskite 4 paskutinius asmens kodo skaičius:</label>
+					<input type="text" name="personal_no" id="personal_no" maxlength="4" placeholder="1234">
+				</div>
+			</fieldset>
+
+			<fieldset>
+				<legend>Jūsų pomėgiai...</legend>
+			
+				<p>Mėgastamiausi gėriami</p>
+
+				<div>
+					<label for="drink_water">Vanduo</label>
+					<input type="checkbox" name="drink_water" id="drink_water">
+
+					<label for="drink_milk">Pienas</label>
+					<input type="checkbox" name="drink_milk" id="drink_milk">
+
+					<label for="drink_cola">Coca Cola</label>
+					<input type="checkbox" name="drink_cola" id="drink_cola">
+
+					<label for="drink_pepsi">Pepsi Cola</label>
+					<input type="checkbox" name="drink_pepsi" id="drink_pepsi">
+
+					<label for="drink_other">Kita</label>
+					<input type="checkbox" name="drink_other" id="drink_other">
+				</div>
+			
+				<p>Mėgastamiausias maistas</p>
+			
+				<select id="food" name="food">
+					<option disabled selected>Pasirinkite maista...</option>
+					<option>Pica</option>
+					<option>Kebabas</option>
+					<option>Salotos</option>
+					<option>Riešutai</option>
+					<option>Traškučiai</option>
+					<option>Vaisiai</option>
+				</select>
+			</fieldset>
+
+			<div>
+				<label for="comment">Jūsų atsiliepimas (max 150 simbolių):</label>
+				<textarea name="comment" id="comment" placeholder="Jūsų atsiliepimas"></textarea>
+			</div>
+
+			<div>
+				<label for="agree">Su sąlygomis sutinku</label>
+				<input type="checkbox" name="agree" id="agree">
+			</div>
+
+			<div>
+				<input type="reset" name="reset" id="reset" value="Išvalyti duomenis">
+				<input type="submit" name="submit" id="submit" value="Pateikti duomenis">
+			</div>
+
+		</fieldset>
+	</form>
+</body>
+</html>

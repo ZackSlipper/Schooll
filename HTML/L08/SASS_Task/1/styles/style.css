@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 80vh;
+}
+
+nav ul {
+  background-color: rgb(202, 202, 202);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  padding: 7px 0;
+}
+@media (max-width: 500px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
+nav ul li {
+  list-style-type: none;
+  margin: 0 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  color: rgb(216, 97, 0);
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+nav ul li a:hover {
+  color: white;
+}
+nav ul li:hover {
+  background-color: rgb(216, 97, 0);
+}
+nav ul li:active {
+  box-shadow: 0 7px 0 green;
+}
+
+footer ul {
+  background-color: rgb(202, 202, 202);
+  display: flex;
+  justify-content: right;
+  margin: 0;
+  padding: 0;
+  padding: 7px 0;
+}
+@media (max-width: 500px) {
+  footer ul {
+    flex-direction: column;
+  }
+}
+footer ul li {
+  list-style-type: none;
+  margin: 0 10px;
+}
+footer ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  color: rgb(216, 97, 0);
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+footer ul li a:hover {
+  color: white;
+}
+footer ul li:hover {
+  background-color: rgb(216, 97, 0);
+}
+footer ul li:active {
+  box-shadow: 0 7px 0 green;
+}
+
+.color-bar {
+  background-color: green;
+  height: 35px;
+}/*# sourceMappingURL=style.css.map */

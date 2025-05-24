@@ -1,0 +1,108 @@
+*
+{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.custom-logo
+{
+	--size: 250px;
+
+	width: var(--size + 20px);
+	height: var(--size + 20px);
+	background-color: blueviolet;
+	font-size: var(--size);
+	margin: 20px;
+	padding: 10px;
+}
+
+body
+{
+	color: aliceblue;
+	background-color: #000000;
+	padding: 20px;
+}
+
+header
+{
+	background-color: #005;
+	padding: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+nav
+{
+	color: black;
+	background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+	padding: 25px 0 20px 0;
+	font-size: 2em;
+}
+
+body
+{
+	margin: 0;
+}
+
+.rainbow-background
+{
+	background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, indigo, blue, green, yellow, orange, red);
+	background-size: 500% 100%;
+	animation: create-rainbow-gradient-shift 5s linear infinite;
+}
+
+@keyframes create-rainbow-gradient-shift
+{
+	0%
+	{
+		background-position: 0% 0%
+	}
+
+	100%
+	{
+		background-position: 200% 100%
+	}
+}
+
+article
+{
+	background-color: #020;
+	color: #fff;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+section
+{
+	background-color: #005;
+	color: #fff;
+	padding: 20px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+section article
+{
+	width: 300px;
+	background-color: #200;
+	color: #fff;
+	padding: 20px;
+	float: left;
+	margin: 10px 20px;
+}
+
+.clear-float
+{
+	clear: both;
+}
+
+.art p
+{
+	padding: 10px;
+}
+
+.art p:nth-child(odd)
+{
+	background-color: #040;
+}

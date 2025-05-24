@@ -1,0 +1,59 @@
+.knowledge
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.knowledge > article
+{
+	background-color: gainsboro;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 10px;
+	margin: 10px;
+	flex: 1 0 20%;
+	margin-top: 50px;
+}
+
+.knowledge > article:hover
+{
+	color: green;
+}
+
+.knowledge > article:hover > div > i
+{
+	border: green 2px solid;
+	color: black;
+}
+
+@media (max-width: 800px)
+{
+	.knowledge > article
+	{
+		flex: 1 0 30%;
+	}
+}
+
+.knowledge > article > div
+{
+	position: relative;
+	transform: translateY(-1.2em);
+	color: white;
+	padding: 10px;
+	margin: auto;
+	color: green;
+	font-size: 4em;
+}
+
+.knowledge > article > div > i
+{
+	position: absolute;
+	padding: 20px;
+	left: calc(50% - 50px);
+	background-color: gainsboro;
+	border-radius: 50%;
+	border: white 2px solid;
+}

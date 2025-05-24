@@ -1,0 +1,55 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+
+	background-color: #333;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+li{
+	list-style-type: none;
+	padding: 0px 20px;
+	color: white;
+	
+	display: flex;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover
+{
+	list-style-type: none;
+	color: #999;
+}
+
+a:active
+{
+	color: cornflowerblue;
+}
+
+.logo{
+	font-size: 2.5em;
+	margin: 0.1em 0.2em;
+	color:white;
+}
+
+@media (max-width: 625px)
+{
+	ul
+	{
+		flex-direction: column;
+	}
+
+	li
+	{
+		margin: 10px 0;
+	}
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 3</title>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<div class="lorem">
+		<h2>Lorem ipsum dolor sit amet.</h2>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus id quaerat modi, blanditiis sint repudiandae cum debitis voluptas fugiat enim pariatur numquam, harum dignissimos consequatur totam beatae quibusdam odit quas velit! Reiciendis provident quod, deleniti quaerat delectus similique! Ad fugit voluptatum ratione, dolor incidunt tempore quas? Perspiciatis praesentium explicabo eligendi unde, itaque, iste quam et minima voluptates officiis laborum! Porro omnis adipisci magnam enim nulla, consectetur error autem quibusdam. Sit repellendus enim aperiam optio. Quidem vero perferendis omnis suscipit autem expedita aliquid in, soluta eos! Fugiat ab sint animi, commodi enim cumque corrupti dolorem quod magnam sunt distinctio voluptatum nobis.</p>
+	</div>
+	<div>
+		<h2>Lorem ipsum dolor sit amet.</h2>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus id quaerat modi, blanditiis sint repudiandae cum debitis voluptas fugiat enim pariatur numquam, harum dignissimos consequatur totam beatae quibusdam odit quas velit! Reiciendis provident quod, deleniti quaerat delectus similique! Ad fugit voluptatum ratione, dolor incidunt tempore quas? Perspiciatis praesentium explicabo eligendi unde, itaque, iste quam et minima voluptates officiis laborum! Porro omnis adipisci magnam enim nulla, consectetur error autem quibusdam. Sit repellendus enim aperiam optio. Quidem vero perferendis omnis suscipit autem expedita aliquid in, soluta eos! Fugiat ab sint animi, commodi enim cumque corrupti dolorem quod magnam sunt distinctio voluptatum nobis.</p>
+	</div>
+
+	<form name="test" action="" method="post">
+		<label for="text">Name:</label>
+		<input type="text" name="name" placeholder="Name" value="test" title="Some text" maxlength="5" minlength="5">
+		<input type="submit" value="Send">
+	</form>
+
+	<hr>
+
+	<form name="test2" action="" method="post"></form>
+		<label for="passwd">Name:</label>
+		<input type="password" name="passwd" placeholder="Passwd" value="test">
+		<input type="submit" value="Send">
+	</form>
+
+	<hr>
+	
+	<form name="test3" action="" method="post">
+		<label for="date">Date:</label>
+		<input type="date" name="date">
+
+		<label for="time">Time:</label>
+		<input type="time" name="date">
+
+		<label for="url">URL:</label>
+		<input type="url" name="url">
+
+		<label for="email">Email:</label>
+		<input type="email" name="email">
+		
+		<label for="test">Test:</label>
+		<input type="radio" name="test" value="Test1">
+		<label for="test">Test2:</label>
+		<input type="radio" name="test" value="Test1">
+
+
+		<input type="reset">
+		<input type="submit" value="Send">
+	</form>
+
+	<hr>
+
+	<form action="/submit">
+		<label for="chb">Chb:</label>
+		<input type="checkbox" name="chb" checked>
+		<br>
+		<label for="chb2">Chb2:</label>
+		<input type="checkbox" name="chb2" checked>
+		<br>
+		<input type="submit" value="Send">
+	</form>
+
+	<hr>
+
+	<form action="">
+		<fieldset>
+			<legend>Select anything</legend>
+			<div>
+				<label for="">Select</label>
+				<select name="" id="">
+					<option value="test">Test1</option>
+					<option value="test2">Test2</option>
+					<option disabled value="test3">Test3</option>
+					<option selected value="test4">Test4</option>
+				</select>
+			</div>
+		</fieldset>
+
+		<select name="goods" multiple>
+			<optgroup label="Gr1">
+				<option value="1">Goods1</option>
+				<option value="2">Goods2</option>
+				<option value="3">Goods3</option>
+			</optgroup>
+			<optgroup label="Gr2">
+				<option value="4">Goods4</option>
+				<option value="5">Goods5</option>
+				<option value="6">Goods6</option>
+			</optgroup>
+			<optgroup label="Gr3" disabled>
+				<option value="7">Goods7</option>
+				<option value="8">Goods8</option>
+				<option value="9">Goods9</option>
+			</optgroup>
+		</select>
+	</form>
+</body>
+</html>

@@ -1,0 +1,73 @@
+$buttonTextColor: orange;
+$buttonFontSize: 1.4em;
+
+@mixin zeroMarginPadding {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	@include zeroMarginPadding;
+}
+
+.picture-grid {
+	@include zeroMarginPadding;
+	padding: 10px;
+
+	display: grid;
+	grid-template-columns: repeat(3, minmax(200px, 1fr));
+	grid-gap: 10px;
+
+	@media (max-width: 900px) {
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	}
+
+	.item {
+		position: relative;
+
+		h1 {
+			display: block;
+			font-size: $buttonFontSize;
+			text-align: center;
+			margin: 0;
+			color: $buttonTextColor;
+			text-shadow: 2px 2px 2px black;
+
+			position: relative;
+			top: 45%;
+		}
+
+		@for $i from 1 through 9 {
+			&:nth-child(#{$i}) {
+				background-image: url("https://picsum.photos/500?random=#{$i}");
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+				display: inline-block;
+				width: 100%;
+				height: 200px;
+
+				h1{
+					&::after{
+						content: " #{$i}";
+					}
+				}
+			}
+		}
+	}
+}
+
+.overlay {
+	background-color: black;
+	opacity: 0.8;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+
+	&:hover {
+		opacity: 0;
+		transition: 0.5s;
+	}
+}

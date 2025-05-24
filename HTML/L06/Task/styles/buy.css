@@ -1,0 +1,95 @@
+.buy
+{
+	background-color: whitesmoke;
+	padding: 20px;
+	margin: 20px;
+	border: gray 10px solid;
+}
+
+.buy > div
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.buy > div > article
+{
+	padding: 10px;
+	margin: 10px;
+	flex: 0 0 30%;
+}
+
+@media (max-width: 900px)
+{
+	.buy > div > article
+	{
+		flex: 0 0 50%;
+	}
+}
+
+.buy > div > article div > h4
+{
+	display: inline;
+	background-color: magenta;
+	padding: 7px;
+	border-radius: 20px;
+	color: white;
+}
+
+.img
+{
+	background-color: blue;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 10px;
+	height: 300px;
+}
+
+.triangle
+{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 100px 0 0 100px;
+	border-color: transparent transparent transparent magenta;
+}
+
+.move
+{
+	color: cyan;
+	position: relative;
+	transform: translate(-20px, 220%);
+}
+
+.move > h3
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px;
+}
+
+.move > p
+{
+	position: absolute;
+	bottom: 0;
+	padding: 0 0 0 10px;
+}
+
+.bike_1
+{
+	background-image: url('../img/bike_1.jpg');
+}
+
+.bike_2
+{
+	background-image: url('../img/bike_2.jpg');
+}
+
+.bike_3
+{
+	background-image: url('../img/bike_3.jpg');
+}

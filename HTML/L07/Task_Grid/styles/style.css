@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.img{
+	background-position: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.grid_container {
+	display: grid;
+}
+
+.color_lime {
+	background-color: lime;
+}
+
+.color_purple {
+	background-color: rgb(128, 0, 200);
+}
+
+.color_yellow {
+	background-color: rgb(255, 225, 0);
+}
+
+.color_red {
+	background-color: red;
+}
+
+.color_blue {
+	background-color: rgb(0, 0, 128);
+}
+
+.color_cyan {
+	background-color: rgb(0, 128, 255);
+}
+
+.color_teal {
+	background-color: rgb(0, 128, 200);
+}
+
+.color_orange {
+	background-color: orange;
+}
+
+.color_magenta {
+	background-color: rgb(225, 0, 225);
+}

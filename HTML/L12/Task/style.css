@@ -1,0 +1,12 @@
+.container {
+	border: 1px solid greenyellow;
+	padding: 10px;
+	margin: 5px;
+	background-color: white;
+}
+
+#image, #image2 {
+	width: 150px;
+	display: block;
+	margin: 10px;
+}

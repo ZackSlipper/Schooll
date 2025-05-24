@@ -1,0 +1,60 @@
+Setup:
+
+1. Install Java 1.8
+2. Install Maven
+3. Open project settings
+	3.1. Set project SDK to Java 1.8
+4. Open pom.xml
+	4.1. Set `<lombok.version>1.16.16</lombok.version>`
+
+OR
+
+1. Generate a project from https://start.spring.io/
+2. Select Maven Project
+3. Select Java
+4. Select Java version 21
+
+OR
+
+1. Use Spring initializer extension
+
+MANDATORY:
+1. Add
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-web</artifactId>
+	</dependency>
+to pom.xml to resolve @RestController
+
+2. Add
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-web</artifactId>
+	</dependency>
+to pom.xml so the application doesnt instantly quit
+
+3. Add
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-devtools</artifactId>
+        <scope>runtime</scope>
+        <optional>true</optional>
+    </dependency>
+to pom.xml to enable hot reloading
+
+OPTIONAL DEPS:
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-actuator</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-security</artifactId>
+	</dependency>
+
+	Swagger:
+	<dependency>
+		<groupId>org.springdoc</groupId>
+		<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+		<version>2.7.0</version>
+	</dependency>

@@ -1,0 +1,73 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-size: 1.1em;
+	font-family: 'Nunito', sans-serif;
+	color: #fff;
+	background-color: #e8e9e9;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.authors_container_flex
+{
+	background-color: white;
+}
+
+.author_photo_flex
+{
+	min-height: 25vh;
+	border: 1px solid red;
+	margin: 10px;
+	background-size: cover;
+	background-position: center;
+}
+
+.author_photo_flex:nth-child(1)
+{
+	background-image: url("../img/1a.jpeg");
+}
+
+.author_photo_flex:nth-child(2)
+{
+	background-image: url("../img/2a.jpeg");
+}
+
+.author_photo_flex:nth-child(3)
+{
+	background-image: url("../img/3a.jpeg");
+}
+
+.author_photo_flex:nth-child(4)
+{
+	background-image: url("../img/4a.jpeg");
+}
+
+.author_photo_flex:nth-child(5)
+{
+	background-image: url("../img/5a.jpeg");
+}
+
+.github_icon{
+	font-size: 3em;
+	background-color: green;
+	padding: 0 10px;
+	margin: 5px;
+}
+
+/*.github_icon:nth-child(2)
+{
+	margin-left: auto;
+}*/
+
+.github_icon:hover
+{
+	color: green;
+	background-color: transparent;
+}

@@ -1,0 +1,42 @@
+Suma: 7194
+
+Maziausias: -54 (1 kartai)
+Didziausias: 1500 (2 kartai)
+
+Skaiciu dazniai:
+5 - 37 kartai
+4 - 19 kartai
+8 - 16 kartai
+6 - 14 kartai
+54 - 13 kartai
+2 - 12 kartai
+87 - 9 kartai
+14 - 9 kartai
+12 - 9 kartai
+10 - 7 kartai
+25 - 6 kartai
+15 - 6 kartai
+7 - 6 kartai
+13 - 5 kartai
+45 - 4 kartai
+36 - 4 kartai
+3 - 4 kartai
+21 - 3 kartai
+1 - 3 kartai
+-5 - 3 kartai
+1500 - 2 kartai
+84 - 2 kartai
+74 - 2 kartai
+69 - 2 kartai
+41 - 2 kartai
+9 - 2 kartai
+500 - 1 kartai
+56 - 1 kartai
+55 - 1 kartai
+52 - 1 kartai
+47 - 1 kartai
+23 - 1 kartai
+11 - 1 kartai
+-25 - 1 kartai
+-45 - 1 kartai
+-54 - 1 kartai
